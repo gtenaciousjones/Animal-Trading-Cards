@@ -13,7 +13,7 @@
     height: 300px;
     width: 300px;
     padding: 5px 5px 10px 5px;
-   }
+}
 
 .body_text {
     border: 1px solid rgb(90, 105, 143);
@@ -36,8 +36,10 @@
 .list_ul {
     list-style-type: none;
     padding: 0;
-  }
+}
 
-  .list_ul span {
+.list_ul span {
     font-weight: bold;
-   }
+}
+
+  
