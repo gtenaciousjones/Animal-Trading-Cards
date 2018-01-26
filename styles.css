@@ -1,5 +1,5 @@
 
-body {
+.body {
     font-family: 'PT Sans', sans-serif;
     font-size: 13.5px;
     width: 320px;
@@ -9,35 +9,35 @@ body {
     box-shadow: 10px 10px 8px 0px rgba(207,207,207,1);
  }
 
-.dog-img {
+.body_dog-img {
     height: 300px;
     width: 300px;
     padding: 5px 5px 10px 5px;
    }
 
-#card-text {
+.body_text {
     border: 1px solid rgb(90, 105, 143);
     margin: 5px 13px 5px 5px;
-    padding: 0px 7px 0px 7px;
+    padding: 0 7px 0 7px;
 }
 
-#card-text a {
+.body_text a {
     text-decoration: none;
 }
 
-#card-text a:hover {
+.body_text a:hover {
     color: #0000cd;
 }
 
-.intro {
+.body_text-intro {
     font-style: italic;
 }
-
-span {
-    font-weight: bold;
-   }
-   
-ul {
+ 
+.list_ul {
     list-style-type: none;
     padding: 0;
   }
+
+  .list_ul span {
+    font-weight: bold;
+   }
